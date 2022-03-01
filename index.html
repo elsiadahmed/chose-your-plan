@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Web Design</title>    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'><link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+    <body>
+<!--=====Start NavBAr=====-->
+<nav class="nav">
+    <div class="header-navbar">
+        <span class="icon-nav float-right"><i class="fas fa-bars fa-lg"></i></span>
+    
+        <a class="brand float-left">
+            <img src="https://ik.imagekit.io/mostafaabobakr/LogoMoamer_ikPAFQZAI.png" alt=""/>
+        </a>
+    </div>
+    
+        <ul class="nav-bar list-unstyled hidden-xs hidden-sm">
+            <li class="active">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="#" data-vale="Features">Features</a>
+            </li>
+            <li>
+                <a href="#" data-vale="About">About </a>
+            </li>
+            <li>
+                <a href="#" data-vale="Gallery">Gallery</a>
+            </li>
+            <li>
+                <a href="#" data-vale="Plans">Plans</a>
+            </li>
+            <li>
+                <a href="#" data-vale="what-say">What-say</a>
+            </li>
+          <li>
+                <a href="#" data-vale="Information">Information</a>
+            </li>
+        </ul>
+    
+</nav>
+
+<!--=====End NavBAr=====-->
+    <!--=====Start Header=====-->
+    <header class="header text-center">            
+        <div class="overlay">
+            <h1>Choose Your Plan</h1>
+            <div class="container">
+                <div class="plan float-left">Free This Plan To Get 10 Gigabyte</div>
+                <div class="plan float-left">10$ This Plan To Get 50 Gigabyte</div>
+                <div class="clear-fex"></div>
+                <div class="order hidden-xs">This Is button click here to Choose Plan</div>
+            </div>
+        </div>            
+    </header>
+    <!--=====End Header=====-->
+            <!--=====Start Features=====-->
+        <section class="features " id="Features">
+            <div class="container">
+                <h2 class="text-center">Our Features</h2>
+                <div class="feat float-left">
+                    <span class="icon"><i class="fas fa-fighter-jet fa-2x"></i></span>
+                    <h3>Fast</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="feat float-left">
+                    <span class="icon"><i class="fas fa-compact-disc fa-2x"></i></span>
+                    <h3>Medium</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="feat float-left">
+                    <span class="icon"><i class="fas fa-snowflake fa-2x"></i></span>
+                    <h3>Slow</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>
+        </section>
+        <!--=====End Features=====-->
+           <!--=====Start About Us=====-->
+        <section class="about text-center" id="About">
+            <div class="container">
+                <h2 >About Us</h2>
+                <p class="lead">
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.   
+                </p>
+            </div>
+        </section>        
+        <!--=====End About Us=====-->
+        <!--=====Start Gallery=====-->
+        <section class="gallery mycontainer" id="Gallery">
+            <div class="image float-left">
+                <img class="img-responsive" src="data:image/jpeg;base64,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" alt="" />
+            </div>
+            
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKObKzQgqbQ0vBmjiYOU_lPTVvjH-cBbRC-t66WiMrUSBSj3zF" alt="" />
+            </div>
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdCT1mma9MBIMO4mjeIvD5CJ5Zb6njJtoguZX_t6eAFOpA8JZX" alt="" />
+            </div>
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8rjsDD12V0X2LwhH-CNpbxplYaCUsliM3g6bce6oSdrl4ZTT" alt="" />
+            </div>
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6OJfFf2cQb-zO-x-u3nYThdF-efSP1V62c6HCwPUylpcBF7evA" alt="" />
+            </div>
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXamJWJMMr3hEEsbq9aDrC-8FFzs9n6PSetWmbnw-U_4TPgJO" alt="" />
+            </div>
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyUZeeIVPu_3sCiXTCPWtebtmkOn9Xi5RTaz2NZZj2-FfbKwLxbA" alt="" />
+            </div>
+            <div class="image float-left">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIHnXJgvf_IyOHgWUbA3-kQ1tLX9MOD5piD07xVMJveepaqV5A" alt="" />
+            </div>
+            <div class="clear-fex"></div>
+        </section>
+        <!--=====End Gallery=====-->
+            <!--=====Start Our Works=====-->
+        <section class="works text-center" id="Plans">
+            <div class="container">
+                <h2>Our Pricing Plans</h2>
+                <div class="item float-left">
+                    <h3>Basic</h3>
+                    <div class="pandel">
+                        <p>USD monthly</p>
+                        <span class="prise">$3.5</span>
+                    </div>
+                    <ul class="list-unstyled lead">
+                        <li>Websites 1</li>
+                        <li>Website Space 50G</li>
+                        <li>Performance Standard</li>
+                        <li>Included Domains 1</li>
+                        <li>Parked Domains 5</li>
+                        <li>Sub Domains 25</li>
+                        <li>Email Accounts 100</li>
+                        <li>Email Storage 100mb</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <div class="item float-left">
+                    <h3>Plus</h3>
+                    <div class="pandel">
+                        <p>USD monthly</p>
+                        <span class="prise">$5.7</span>
+                    </div>
+                    <ul class="list-unstyled lead">
+                        <li>Websites 1</li>
+                        <li>Website Space 80G</li>
+                        <li>Performance Standard</li>
+                        <li>Included Domains 5</li>
+                        <li>Parked Domains 15</li>
+                        <li>Sub Domains 50</li>
+                        <li>Email Accounts 200</li>
+                        <li>Email Storage 200mb</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <div class="item float-left">
+                    <h3>Premium</h3>
+                    <div class="pandel">
+                        <p>USD monthly</p>
+                        <span class="prise">$14.3</span>
+                    </div>
+                    <ul class="list-unstyled lead">
+                        <li>Websites 1</li>
+                        <li>Website Space 100G</li>
+                        <li>Performance Standard</li>
+                        <li>Included Domains 10</li>
+                        <li>Parked Domains 20</li>
+                        <li>Sub Domains 75</li>
+                        <li>Email Accounts 300</li>
+                        <li>Email Storage 300mb</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <div class="clear-fex"></div>
+            </div>
+        </section>
+        <!--=====End Our Works=====-->
+            <!--=====Start What Thay say=====-->
+        <section class="thay-say" id="what-say">
+            <div class="container">
+                <h2 class="text-center">What Thay Say About Us</h2>
+                <div class="user-say float-left">
+                    <div class="avater float-left">
+                        <img class="img-rounded img-thumbnail" src="http://www.hexatar.com/gallery/thumb/180525_083439_mc8ed26286f_avatar.png" alt=""/>
+                    </div>
+                    
+                    <h3>Ahmed Mohmed</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="user-say float-left">
+                    <div class="avater float-left">
+                        <img class="img-circle img-thumbnail" src="http://www.hexatar.com/gallery/thumb/180525_083439_mc8ed26286f_avatar.png" alt=""/>
+                    </div>
+                    <h3>Anwar Elsayad</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="user-say float-left">
+                    <div class="avater float-left">
+                        <img class="img-circle img-thumbnail" src="http://www.hexatar.com/gallery/thumb/180525_083439_mc8ed26286f_avatar.png" alt=""/>
+                    </div>
+                    <h3>Mohamed Salah</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="clear-fex"></div>
+            </div>
+        </section>
+        <!--=====End What Thay say=====-->
+            <!--=====Start Information =====-->
+        <section class="Information " id="Information">
+            <div class="container">
+                <h2 class="text-center">Product Information</h2>
+                <ul class="list-unstyled">
+                     <li data-vale=".Services" class="selected">Services</li>
+                      <li data-vale=".History"  >History</li>
+                      <li  data-vale=".Specification" >Specification</li>
+                      <li data-vale=".Technical"  >Technical</li>
+                      <li  data-vale=".Review" >Review</li>
+                </ul>
+                <div class="info-content lead">
+                    <div class="Services ">
+                        About Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                    <div class="History">
+                        History Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                    <div class="Specification">
+                        Specification Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                    <div class="Technical">
+                        Technical Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                    <div class="Review">
+                        Review Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====End Information =====-->
+            <!--=====Start Footer =====-->
+        <footer class="footer text-center mycontainer">
+            <div class="container">
+                <div class="copyright float-left">
+                    <span class="icon"><i class="far fa-copyright fa-2x"></i></span> By Ahmed Elsayad
+                </div>
+                <div class="copyright-info float-left">
+                    <span class="icon"><i class="fas fa-phone fa-2x"></i></span>
+                    01278364643
+                </div>
+                <div class="clear-fex"></div>
+            </div>
+        </footer>
+        <!--=====End Footer =====-->
+        <script src="js\jquery-1.12.4.min.js"></script>
+        <script src="js\custom.js"></script>
+    </body>
+</html>
